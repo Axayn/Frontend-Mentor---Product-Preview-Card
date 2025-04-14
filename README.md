@@ -14,7 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Live Site URL: [frontend-mentor-product-preview-card](https://frontend-mentor-product-preview-card-0.netlify.app/)
+- Live Site URL: [frontend-mentor-product-preview-card](https://frontend-mentor-product-preview-card0.netlify.app/)
 
 ## My process
 
