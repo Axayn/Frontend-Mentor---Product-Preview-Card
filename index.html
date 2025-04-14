@@ -33,23 +33,19 @@
   </head>
   <body>
     <main class="product-preview-card-container">
-      <picture>
-        <source
-          srcset="images/image-product-mobile.jpg"
-          media="(max-width: 38.1em)"
-        />
-        <img
-          src="images/image-product-desktop.jpg"
-          alt="Gabrielle Chanel perfume"
-          class="product-preview-card__img"
-        />
-      </picture>
+      <div
+        class="product-preview-card__img"
+        role="img"
+        aria-label="Gabrielle Chanel perfume"
+      >
+        &nbsp;
+      </div>
       <div class="product-preview-card-content">
         <div class="product-preview-card-header">
           <span class="product-preview-card__category">Perfume</span>
-          <h2 class="product-preview-card__name">
+          <h1 class="product-preview-card__name">
             Gabrielle Essence Eau De Parfum
-          </h2>
+          </h1>
           <p class="product-preview-card__description">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
