@@ -33,13 +33,17 @@
   </head>
   <body>
     <main class="product-preview-card-container">
-      <div
-        class="product-preview-card__img"
-        role="img"
-        aria-label="Gabrielle Chanel perfume"
-      >
-        &nbsp;
-      </div>
+      <picture>
+        <source
+          srcset="images/image-product-mobile.jpg"
+          media="(max-width: 38.1em)"
+        />
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="Gabrielle Chanel perfume"
+          class="product-preview-card__img"
+        />
+      </picture>
       <div class="product-preview-card-content">
         <div class="product-preview-card-header">
           <span class="product-preview-card__category">Perfume</span>

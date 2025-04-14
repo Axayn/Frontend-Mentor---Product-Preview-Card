@@ -14,17 +14,11 @@
   }
 
   .product-preview-card__img {
-    background-image: url("../images/image-product-desktop.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: brightness(90%);
-
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
 
     @include respond(sm) {
       height: 28rem;
-      background-image: url("../images/image-product-mobile.jpg");
     }
   }
 
